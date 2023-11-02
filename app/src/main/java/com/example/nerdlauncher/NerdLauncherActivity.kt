@@ -57,7 +57,7 @@ class NerdLauncherActivity : AppCompatActivity() {
         private lateinit var resolveInfo: ResolveInfo
 
         init {
-            nameTextView.setOnClickListener(this)
+            itemView.setOnClickListener(this)
         }
 
         fun bindActivity(resolveInfo: ResolveInfo) {
